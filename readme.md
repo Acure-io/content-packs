@@ -1,6 +1,6 @@
 # Acure Automation Scenarios
 
-Download or copy `base64`-encoded scenarios and paste them into the **import** field when creating a new Automation scenario.
+Download or copy `base64`-encoded ready-to-use scenarios and paste them into the **import** field when creating a new Automation scenario to import them into your Userspace.
 
 ## Event Deduplication & Correlation Scenarios
 
