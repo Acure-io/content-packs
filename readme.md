@@ -10,4 +10,4 @@ Download or copy `base64`-encoded scenarios and paste them into the **import** f
 
 ## Topology Sync Scenarios
 
-[Zabbix Topology](Service%20Model/Zabbix%20Create%20Topology%20from%20Zabbix.txt)
+[Zabbix Topology](ServiceModel/Zabbix%20Create%20Topology%20from%20Zabbix.txt)
