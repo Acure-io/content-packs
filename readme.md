@@ -1,13 +1,15 @@
-# Acure Automation Scenarios
+# Acure Content Packs
 
-Download or copy `base64`-encoded ready-to-use scenarios and paste them into the **import** field when creating a new Automation scenario to import them into your Userspace.
+## Deduplication & Correlation Scenarios
 
-## Event Deduplication & Correlation Scenarios
+[Zabbix Default Processor](signals/Zabbix%20Default%20Signal%20Processor.txt)
 
-[Zabbix Default Processor](Signals/Zabbix%20Default%20Signal%20Processor.txt) – for processing data from a standard Zabbix Data Stream.
+[Zabbix Webhook Processor](signals/Zabbix%20Webhook%20Signal%20Processor.txt)
 
-[Zabbix Webhook Processor](Signals/Zabbix%20Webhook%20Signal%20Processor.txt) – for processing data sent from Zabbix via webhook messages.
 
-## Topology Sync Scenarios
+## CMDB Autobuild Scenarios
 
-[Zabbix Topology](ServiceModel/Zabbix%20Create%20Topology%20from%20Zabbix.txt)
+|                                                                                                                                                                                                                                                                                                                            |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Zabbix](./CMDB%20Autobuild/Zabbix/Zabbix%20Create%20Topology%20from%20Zabbix.txt)                                                                                                                                                                                                                                         |
+| [vCenter Topology Sync](./CMDB%20Autobuild//vCenter/vCenter%20Topology.txt)<br>[vCenter Create VM](./CMDB%20Autobuild//vCenter/vCenter%20VM%20Created.txt)<br>[vCenter Migrate VM](./CMDB%20Autobuild//vCenter/vCenter%20VM%20Migrated.txt)<br>[vCenter Remove VM](./CMDB%20Autobuild//vCenter/vCenter%20VM%20Removed.txt) |

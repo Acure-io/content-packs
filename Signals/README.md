@@ -1,4 +1,4 @@
-# Event Deduplication & Correlation Scenarios
+# Event processing scenarios (Signals) for Acure
 
 [Zabbix Webhook Processor](Zabbix%20Webhook%20Signal%20Processor.txt)
 
