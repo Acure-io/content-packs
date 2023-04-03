@@ -12,6 +12,6 @@ In order to run scenario, do the following:
 
 ### Features of the scenario execution
 
-* During the creation of new CI, this scenario adds them `"source": "vCenter"` label. When updating and archiving CIs, scenario filters objects by this label within its Workgroup. **For this reason**, CIs, which do not have the `"source": "vCenter"` label or do not belong to the Scenario's Workgroup, will not be processed. 
+* During the creation of new CIs, this scenario adds them `"source": "vCenter"` label. When updating and archiving CIs, scenario filters objects by this label within its Workgroup. **For this reason**, CIs, which do not have the `"source": "vCenter"` label or do not belong to the Scenario's Workgroup, will not be processed. 
 * In the last stage of topology event processing, the script archives all the CIs that have not been created or updated in the current script run. **So**, it is not possible to add CIs from two different topology events simultaneously within a **single** WG.
 * The name of a RCM CI must be unique not only within the Workgroup, but also within the whole Userspace. **So** if the same SM are configured for two Workgroups from vCenter, the CI names of one of them will have indexes in the name *(e.g., vm-app-01 `(2)`)*.
