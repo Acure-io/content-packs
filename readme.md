@@ -1,15 +1,34 @@
 # Acure Content Packs
 
-## Deduplication & Correlation Scenarios
+## Signals
+
+Examples of Event Deduplication & Correlation Scenarios
+
+### Zabbix
+
+Processing scenarios for events from Zabbix
+
+#### Scenario for Data Stream using Zabbix default template
 
 [Zabbix Default Processor](./Signals/Zabbix%20Default%20Signal%20Processor.txt)
 
+#### Scenario for Data Stream using Default Template
+
+> Zabbix should be configured to send events as [WebHook](https://docs.acure.io/current/en/solutions/integrations/#example-of-zabbix-integration-via-webhook)
+
 [Zabbix Webhook Processor](./Signals/Zabbix%20Webhook%20Signal%20Processor.txt)
 
+### SCOM
 
-## CMDB Autobuild Scenarios
+Event processing scenario for events from SCOM (System Center Operations Manager)
 
-|                                                                                                                                                                                                                                                                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Zabbix](./CMDB%20Autobuild/Zabbix/Zabbix%20Create%20Topology%20from%20Zabbix.txt)                                                                                                                                                                                                                                         |
-| [vCenter Topology Sync](./CMDB%20Autobuild//vCenter/vCenter%20Topology.txt)<br>[vCenter Create VM](./CMDB%20Autobuild//vCenter/vCenter%20VM%20Created.txt)<br>[vCenter Migrate VM](./CMDB%20Autobuild//vCenter/vCenter%20VM%20Migrated.txt)<br>[vCenter Remove VM](./CMDB%20Autobuild//vCenter/vCenter%20VM%20Removed.txt) |
+[SCOM Signal Processor](./Signals/SCOM%20Signals%20processor.txt)
+
+## CMDB Autobuild
+
+Examples of CMDB Autobuild Scenarios
+
+| Name                                            | Section                                |
+|-------------------------------------------------|----------------------------------------|
+| Zabbix groups and hosts autobuild scenarios     | [Zabbix](./CMDB%20Autobuild/Zabbix/)   |
+| VCenter topology autobuild scenario             | [vCenter](./CMDB%20Autobuild/vCenter/) |
