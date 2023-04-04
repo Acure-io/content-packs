@@ -4,4 +4,4 @@
 
 [Event processing scenario](Zabbix%20Default%20Signal%20Processor.txt) for Data Stream using Default Template.
 
-[Event processing scenario](SCOM%20Signals%20processor.txt) for events from SCOM.
+[Processing scenario](SCOM%20Signals%20processor.txt) for events from SCOM.
