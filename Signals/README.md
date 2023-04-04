@@ -1,4 +1,4 @@
-# Event processing (deduplication) scenarios
+# Acure Event Processing (deduplication) Scenarios
 
 [Processing scenario](Zabbix%20Webhook%20Signal%20Processor.txt) for events from Zabbix, recieved via Zabbix Webhook.
 
