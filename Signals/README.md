@@ -4,7 +4,7 @@
 
 [Processing scenario](Zabbix%20Default%20Signal%20Processor.txt) for events from Zabbix for standard Data Stream using Zabbix Default Template.
 
-[Processing scenario](SCOM%20Signals%20processor.txt) for events from SCOM.
+[Processing scenario](SCOM%20Signals%20processor.txt) for events from SCOM:
 
 * Filtration of the events in the scenario is executed by the name of the stream (e.g. SCOM).
 * Before creating a signal scenario tries to find a CI with the ScomObjectPath label (ObjectPath field in the primary event). 
