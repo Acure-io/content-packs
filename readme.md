@@ -7,7 +7,7 @@ Examples of CMDB Autobuild Scenarios
 | Name                                             | Section                                                                         |
 |:-------------------------------------------------|:----------------------------------------                                        |
 | Zabbix groups and hosts autobuild scenarios      | [Zabbix](./CMDB%20Autobuild/Zabbix/)                                            |
-| VCenter topology autobuild scenario              | [vCenter](./CMDB%20Autobuild/vCenter/)                                          |
+| VCenter topology autobuild scenarios              | [vCenter](./CMDB%20Autobuild/vCenter/)                                          |
 
 
 ## Signals
