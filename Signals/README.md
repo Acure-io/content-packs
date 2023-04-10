@@ -7,5 +7,5 @@
 [Processing scenario](SCOM%20Signals%20processor.txt) for events from SCOM.
 
 * Filtration of the events in the scenario is executed by the name of the stream (e.g. SCOM).
-* Scenarion, before creating a signal, tries to find a CI with the ScomObjectPath label == <ObjectPath field in the primary event>
+* Before creating a signal scenario tries to find a CI with the ScomObjectPath label (ObjectPath field in the primary event). 
 * If a CI with such a label is not found, the signal will be created without binding the CI.
