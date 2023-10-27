@@ -9,6 +9,9 @@ Examples of CMDB Autobuild Scenarios
 | Zabbix groups and hosts autobuild scenarios      | [Zabbix](./CMDB%20Autobuild/Zabbix/)                                            |
 | VCenter topology autobuild scenarios              | [vCenter](./CMDB%20Autobuild/vCenter/)                                          |
 
+## Metrics Thresholds
+
+Basic [scenario examples](Metrics%20Thresholds/) of binding thresholds to CIs and creating Signals from them
 
 ## Signals
 
